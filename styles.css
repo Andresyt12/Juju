@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    transition: background-color 0.5s ease;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    transition: background-color 0.5s ease;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+footer:hover {
+    background-color: #4CAF50;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#familia {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.miembro-familia {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.miembro-familia img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+    transition: transform 0.3s ease;
+}
+
+.miembro-familia img:hover {
+    transform: scale(1.1);
+}
+
+.miembro-familia h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.miembro-familia p {
+    font-size: 14px;
+    color: #666;
+}
+#perfil {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-info {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    transition: transform 0.3s ease;
+}
+
+.perfil-foto img:hover {
+    transform: scale(1.1);
+}
+
+.perfil-detalles {
+    margin-left: 20px;
+}
+
+.perfil-detalles h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.perfil-detalles p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+#historial {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia-laboral {
+    margin-bottom: 20px;
+}
+
+.experiencia-laboral h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experiencia-laboral p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.experiencia-laboral a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.experiencia-laboral a:hover {
+    background-color: #45a049;
+}
+#metas {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meta {
+    margin-bottom: 20px;
+}
+
+.meta h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.meta p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+#este-soy-yo {
+    margin: 20px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#este-soy-yo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#este-soy-yo .contenido {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#este-soy-yo p {
+    margin: 0;
+}
