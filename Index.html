@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Ejerccios/styles.css">
+    <title>Mi Página Personal</title>
+</head>
+<body>
+
+    <header>
+        <button onclick="cambiarColorFondo()">Cambiar Color de Fondo</button>
+        <h1>Mi Página Personal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#familia">Familia</a></li>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#historial">Historial Laboral</a></li>
+            <li><a href="#metas">Metas</a></li>
+        </ul>
+    </nav>
+    <section id="este-soy-yo">
+        <h2>Y Este Soy Yo</h2>
+    
+        <div class="contenido">
+            <p>¡Hola! Soy Andres osorio . Aquí estoy para compartir un poco más sobre mí. Soy una persona muy entucista , luchadora por sus sueños , habable y sobre todo feliz, y me apasiona las motos y el buen trabajo en mi vida. ¡Explora mi mundo a continuación!</p>
+        </div>
+    
+    </section>
+   
+        <section id="familia">
+            <h2>Familia</h2>
+        
+            <div class="miembro-familia">
+                <img src="../Ejerccios/img/394365493_2337498013113676_7560573179073215207_n.jpg" alt="Familia 1">
+                <h3>Mary luz perez gallo</h3>
+                <p>Ella es Mary , mi madre hermosa , es una mujer de 34 años la cual ha sido una buena madre desde que yo estaba pequeño. <br> Es la hija mayor de 4 hijos de una señora muy luchadora llamada Imelda gallo y hija de Rodrigo perez.</p>
+            </div>
+        
+            <div class="miembro-familia">
+                <img src="../Ejerccios/img/336528712_1279389749645592_6299623221788492402_n.jpg" alt="Familia 2">
+                <h3>Jose duvier osorio perez</h3>
+                <p>El es jose duvier osorio , mi padre , un hombre luchador y fuerte que siempre ha hecho lo que sea para verme bien y que yo este bien. <br> Es un hombre de 39 años y el tercer hijo mayor de 5 hijos de mi abuela  llamada Maria marleny perez romero  y mi abuelo llamado Gonzaga osorio rendon.</p>
+            </div>
+            <div class="miembro-familia">
+                <img src="../Ejerccios/img/399637528_2349988335197977_8566625933753502617_n.jpg" alt="Familia 2">
+                <h3>Juan jose marin perez</h3>
+                <p>El es Juan jose un niño de 6 años de edad y mi hermano , es un niño maravilloso y es el segundo de mi mama y el ultimo.</p>
+            </div>
+        
+           
+        
+        </section>
+    
+
+    
+        <section id="perfil">
+            <h2>Mi Perfil</h2>
+        
+            <div class="perfil-info">
+                <div class="perfil-foto">
+                    <img src="../Ejerccios/img/Imagen de WhatsApp 2023-11-17 a las 17.22.11_13d370b0.jpg" alt="Mi Foto de Perfil">
+                </div>
+        
+                <div class="perfil-detalles">
+                    <h3>¡Hola! Soy Andres Felipe Osorio</h3>
+                    <p>Fecha de Nacimiento: 28 de febrero del año 2006</p>
+                    <p>Ubicación: Bello,Antioquia</p>
+                    <p>Ocupación: Desarrollador de software y estudiante.</p>
+                    <p>Intereses: Me interesa salir adelante y lograr todos los proyectos que tengo para mi futuro.</p>
+                    <p>Padres: Jose Duvir osorio perez y Mary luz perez gallo</p>
+                </div>
+            </div>
+        </section>
+  
+
+        <section id="historial">
+            <h2>Mi Historial Laboral</h2>
+        
+            <div class="experiencia-laboral">
+                <h3>Falabella</h3>
+                <p>Cargo: Repartidor de pedidos</p>
+                
+                <p>Descripción: Tenia que encargarme de los pedidos en linea de las personas , tenia que ir a sus direcciones de residencia y entregar su paquete en un tiempo limitado.</p>
+                <a href="https://www.falabella.com/falabella-cl/page/servicios-logisticos" target="_blank">Visitar la Empresa</a>
+            </div>
+        
+        
+        </section>
+        <section id="metas">
+            <h2>Mis Metas</h2>
+        
+            <div class="meta">
+                <h3>Mi primera meta</h3>
+                <p>Quiero ser un excelente desarrollador de software y demostrarle a todo el mundo que puedo con todo</p>
+            </div>
+        
+            <div class="meta">
+                <h3>Meta 2</h3>
+                <p>Quiero conseguir un trabajo estable y darle a mi madre y a mis hijos todo lo que puedan.</p>
+            </div>
+        
+        
+        </section>
+       
+        
+    <footer>
+        <p>&copy; 2023 Mi Página Personal</p>
+    </footer>
+    <script>
+        function cambiarColorFondo() {
+            var colorFondo = prompt("Introduce un color para el fondo (ejemplo: #ffcc00):");
+            document.body.style.backgroundColor = colorFondo;
+            document.querySelector('header').style.backgroundColor = colorFondo;
+            document.querySelector('nav').style.backgroundColor = colorFondo;
+            document.querySelector('footer').style.backgroundColor = colorFondo;
+        }
+    </script>
+</body>
+</html>
